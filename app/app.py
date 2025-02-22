@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # URL de la API
-url = 'http://0.0.0.0:8501/predict'
+url = 'https://prediccion-ingreso-production.up.railway.app/predict'
 API_KEY_NAME = "X-API-Key"
 
 # Obtener la clave API directamente (¡NO RECOMENDADO PARA PRODUCCIÓN!)
