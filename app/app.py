@@ -21,6 +21,7 @@ def realizar_solicitud_post(url, data, headers):
         return False, str(e)
 
 st.title("Aplicativo para la Predicción de Ingresos - Gerencia de Proyectos para Ciencia de Datos")
+st.title("Actividad presentada por: Hannan Nayibe Yousef Novoa, Yohn Forthis Hernandez Mendoza, Michel Stivens Larrota Villalba")
 
 # Formulario para introducir los datos
 with st.form("input_form"):
